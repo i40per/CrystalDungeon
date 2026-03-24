@@ -7,6 +7,7 @@
 
 import Foundation
 
+// MARK: - ItemType
 enum ItemType: String {
     case key
     case chest

@@ -7,6 +7,7 @@
 
 import Foundation
 
+// MARK: - Item
 struct Item: Equatable {
     let type: ItemType
     let name: String

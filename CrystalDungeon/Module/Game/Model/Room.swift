@@ -7,16 +7,10 @@
 
 import Foundation
 
+// MARK: - Room
 struct Room {
-    let position: Position
-    var exits: [Direction: Position]
+    let description: String
     var items: [Item]
-    
-    init(position: Position,
-         exits: [Direction: Position] = [:],
-         items: [Item] = []) {
-        self.position = position
-        self.exits = exits
-        self.items = items
-    }
+    var isDark: Bool
+    var monsterName: String?
 }

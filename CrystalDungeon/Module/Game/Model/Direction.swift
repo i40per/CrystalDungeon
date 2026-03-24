@@ -7,18 +7,23 @@
 
 import Foundation
 
+// MARK: - Direction
 enum Direction: String, CaseIterable {
     case north = "N"
     case south = "S"
     case east = "E"
     case west = "W"
-    
+
     var opposite: Direction {
         switch self {
-        case .north: return .south
-        case .south: return .north
-        case .east: return .west
-        case .west: return .east
+        case .north:
+            return .south
+        case .south:
+            return .north
+        case .east:
+            return .west
+        case .west:
+            return .east
         }
     }
 }
