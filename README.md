@@ -45,6 +45,20 @@ The project is built using the **MVP (Model-View-Presenter)** pattern:
 1. Open `CrystalDungeon.xcodeproj`
 2. Run the project on simulator or device
 
+## 📸 Screenshots
+
+<p align="center">
+  <img src="Screenshots/screen1.png" width="45%" />
+  <img src="Screenshots/screen2.png" width="45%" />
+</p>
+
+<br>
+
+<p align="center">
+  <img src="Screenshots/screen3.png" width="45%" />
+  <img src="Screenshots/screen4.png" width="45%" />
+</p>
+
 ## 👤 Author
 
 Evgenii Lukin
